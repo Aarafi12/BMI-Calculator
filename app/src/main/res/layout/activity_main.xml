@@ -26,11 +26,13 @@
         android:layout_width="wrap_content"
         android:orientation="horizontal">
         <RadioButton
+            android:id="@+id/radio_button_male"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Male"/>
 
         <RadioButton
+            android:id="@+id/radio_button_female"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Female"/>
@@ -38,6 +40,7 @@
     </RadioGroup>
 
     <EditText
+        android:id="@+id/edit_text_age"
         android:inputType="number"
         android:layout_margin="8dp"
 
@@ -53,6 +56,7 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/edit_text_feet"
             android:inputType="number"
 
             android:layout_width="wrap_content"
@@ -60,6 +64,7 @@
             android:hint="Feet"/>
 
         <EditText
+            android:id="@+id/edit_text_inches"
             android:inputType="number"
 
             android:layout_width="wrap_content"
@@ -73,6 +78,7 @@
 
 
     <EditText
+        android:id="@+id/edit_text_weight"
         android:inputType="number"
 
         android:layout_margin="8dp"
@@ -82,6 +88,7 @@
         android:hint="Weight(kgs)"/>
 
     <Button
+        android:id="@+id/button_calculate"
         android:layout_margin="8dp"
 
         android:layout_width="wrap_content"
@@ -89,12 +96,13 @@
         android:text="Calculate"/>
 
     <TextView
+        android:id="@+id/text_view_result"
         android:layout_margin="24dp"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="23.6  You are a healthy weight!"/>
+        />
 
 
 
